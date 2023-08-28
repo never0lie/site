@@ -1,0 +1,43 @@
+baseURL = "https://example.com/"
+languageCode = "en-US"
+title = 'Sizhan "James" Xu'
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/profile.jpeg"
+  author = 'Sizhan "James" Xu'
+  description = "Hi there! This is my personal site!"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "never0lie"
+  Email         = "s13317555@gmail.com"
+  LinkedIn      = "sizhan-james-xu-49b77716a"
+
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
