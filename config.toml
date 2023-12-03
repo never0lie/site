@@ -14,6 +14,7 @@ theme = "hugo-sustain"
   avatar = "img/profile.jpeg"
   author = 'Sizhan "James" Xu'
   description = "Hi there! This is my personal site!"
+  favicon = true
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
