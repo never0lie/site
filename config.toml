@@ -10,7 +10,7 @@ theme = "hugo-sustain"
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
-[params]
+[params.meta]
   avatar = "img/profile.jpeg"
   author = 'Sizhan "James" Xu'
   description = "Hi there! This is my personal site!"
